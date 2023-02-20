@@ -135,9 +135,8 @@ img{
 }
 
   /* Requirement 15 code here -- Do not remove this comment. */
-img{
-  max-width: 100%;
-  max-height: 100%;
+.about-image, .clients-image, .method-image, .contact-image{
+  overflow: hidden;
 }
 }
 
